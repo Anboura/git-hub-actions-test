@@ -1,0 +1,9 @@
+name: ilias
+gender: male
+address:
+  city: lille
+  zipCode: 59000
+languages:
+  - java
+  - javascript
+  - sql
