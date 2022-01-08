@@ -11,5 +11,8 @@ jobs:
         run: |
           node -v
           npm -v
-      - name: error command
-        run: ecccccho "error"
+      - name: python command
+        run: |
+          import platform
+          prnt(platform.processor())
+        shell: python
