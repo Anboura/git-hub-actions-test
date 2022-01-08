@@ -11,3 +11,5 @@ jobs:
         run: |
           node -v
           npm -v
+      - name: error command
+        run: ecccccho "error"
