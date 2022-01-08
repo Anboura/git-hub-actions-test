@@ -9,6 +9,12 @@ jobs:
         run: |
           pwd
           ls -a
+      - name: listing github info
+        run: |
+          echo "commit id : " $GITHUB_SHA
+          echo "repository : " $GITHUB_REPOSITORY
+          echo $GITHUB_WORKSPACE
+          echo ${{ github.token}}
       - name: Checkout
         uses: actions/checkout@v1
       - name: list files after checkout
